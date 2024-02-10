@@ -1,0 +1,6 @@
+version: '3.5'
+services:
+  app:
+    build: /home/picasso/docker/python-app/docker-compose-app/app 
+  mongo:
+    image: mongo
